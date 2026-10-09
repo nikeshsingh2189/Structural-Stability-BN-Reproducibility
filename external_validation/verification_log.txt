@@ -1,0 +1,16 @@
+Verified 1000 random + 1000 stratified + 500 weighted cases: 2500/2500 exact agreement.
+candidate draws: 8792
+exact query-set match: True
+ nodes  directed_edges  is_DAG  weak_components  max_indegree  max_outdegree  sources  sinks  underlying_is_tree
+   767             766    True                1             2              6        2    284                True
+
+                         experiment  relations  exact_agreements  agreement_rate
+             Random valid relations       1000              1000             1.0
+Stratified deletion radii r=1,...,4       1000              1000             1.0
+   Variable-specific deletion costs        500               500             1.0
+
+All 2500 cases reproduced exactly.
+random deterministic equality: True
+stratified deterministic equality: True
+weighted inputs equality: True
+weighted max absolute cost differences: (np.float64(0.0), np.float64(0.0), np.float64(0.0))

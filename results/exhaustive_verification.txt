@@ -1,0 +1,7 @@
+ n     DAGs      valid  mismatch mismatchW    finite       inf   nonmono   rho>=2
+ 2        2          1         0         0         0         1         0        0
+ 3        8         21         0         0         2        19         0        0
+ 4       64        571         0         0       124       447         8        4
+ 5     1024      25091         0         0      8864     16227      1080      450
+ 6    32768    1924755         0         0    937004    987751    160328    53518   rho=1..4: 883486 51980 1522 16
+Total: DAGs=33866 valid=1950439 mismatch=0 weighted_mismatch=0 finite=945994 inf=1004445 nonmono=161416 rho>=2=53972

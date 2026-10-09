@@ -1,0 +1,5 @@
+experiment,relations,exact_agreements,agreement_rate
+Random valid relations,1000,1000,1.0
+"Stratified deletion radii r=1,...,4",1000,1000,1.0
+Variable-specific deletion costs,500,500,1.0
+Total,2500,2500,1.0

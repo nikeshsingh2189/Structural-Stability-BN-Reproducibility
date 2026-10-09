@@ -1,0 +1,15 @@
+parent,child
+L,MD
+L,UE
+L,W
+SO,L
+SO,SPO
+SO,UR
+SPO,L
+SPO,SIPO
+SPO,W
+UE,US
+UR,UE
+UR,US
+W,MD
+W,SIPO
