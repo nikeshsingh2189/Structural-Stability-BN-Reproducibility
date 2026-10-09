@@ -1,0 +1,2 @@
+retained valid queries: 2000
+mismatches  unit-cost: 0   weighted: 0   returned deletion not breaking: 0

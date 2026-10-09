@@ -1,0 +1,6 @@
+X,Y,orders,first_break_counts,E[L|L<inf],Pr(L=rho)_pct,Pr(never)_pct
+INTUBATION,HYPOVOLEMIA,720,"{1: 240, 2: 144, 3: 72, 4: 24, 'never': 240}",1.75,33.33,33.33
+MINVOLSET,SAO2,24,"{2: 4, 3: 8, 4: 12}",3.33,16.67,0.00
+CO,PRESS,6,"{2: 2, 3: 4}",2.67,33.33,0.00
+HRSAT,VENTMACH,40320,"{3: 2160, 4: 5328, 5: 8352, 6: 10080, 7: 9360, 8: 5040}",5.85,5.36,0.00
+HYPOVOLEMIA,ERRLOWOUTPUT,2,{'never': 2},nan,nan,100.00

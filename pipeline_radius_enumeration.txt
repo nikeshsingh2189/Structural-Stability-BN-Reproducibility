@@ -1,0 +1,5 @@
+valid relations: 1130   radius counts: {1: 1038, 2: 90, 3: 2}
+SO in C: 556   break after deleting SO: 190 (34.17%)   preserve: 366 (65.83%)
+UR _||_ SPO | ['SO']: rho=1  all minimum breaking deletions: [['SO']]
+UR _||_ W | ['SO', 'SPO', 'L']: rho=2  all minimum breaking deletions: [['L', 'SO'], ['SO', 'SPO']]
+US _||_ SIPO | ['SO', 'UR', 'SPO', 'L', 'W', 'UE']: rho=3  all minimum breaking deletions: [['L', 'SPO', 'UE'], ['L', 'SPO', 'UR'], ['L', 'UE', 'W'], ['L', 'UR', 'W'], ['SO', 'SPO', 'UR']]

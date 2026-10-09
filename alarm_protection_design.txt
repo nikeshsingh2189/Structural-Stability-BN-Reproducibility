@@ -1,0 +1,23 @@
+--- p_loss=0.3: mean preservation (%)  [exact | radius-guided | degree | random mean]
+B=0:  87.96 |  87.96 |  87.96 |  87.96   exact=[]  radius-guided=[]
+B=1:  91.06 |  91.06 |  88.34 |  88.68   exact=['VENTTUBE']  radius-guided=['VENTTUBE']
+B=2:  95.10 |  92.86 |  90.14 |  89.38   exact=['ARTCO2', 'SAO2']  radius-guided=['VENTTUBE', 'CATECHOL']
+B=3:  98.20 |  95.80 |  91.06 |  90.06   exact=['ARTCO2', 'SAO2', 'VENTTUBE']  radius-guided=['VENTTUBE', 'CATECHOL', 'ARTCO2']
+B=4: 100.00 | 100.00 |  91.06 |  90.73   exact=['ARTCO2', 'CATECHOL', 'SAO2', 'VENTTUBE']  radius-guided=['VENTTUBE', 'CATECHOL', 'ARTCO2', 'SAO2']
+
+--- B95 budgets (exact | degree | random mean), unprotected preservation
+p_loss=0.1: unprotected 96.12%  B95 = 0 | 0 | 0
+p_loss=0.2: unprotected 92.22%  B95 = 2 | 7 | 7
+p_loss=0.3: unprotected 87.96%  B95 = 2 | 7 | 11
+p_loss=0.4: unprotected 83.10%  B95 = 3 | 7 | 13
+p_loss=0.5: unprotected 77.50%  B95 = 3 | 7 | 15
+
+--- tie-resolution sensitivity of the radius-guided heuristic (300 random tie resolutions, p_loss=0.30)
+B=2: min 92.86  median 92.86  max 92.86  share at 100%: 0.000
+B=3: min 89.80  median 92.86  max 95.80  share at 100%: 0.000
+B=4: min 89.80  median 92.86  max 100.00  share at 100%: 0.097
+
+--- protection stress design: exact residual radii (INT-HYPO, MINVOL-SAO2, CO-PRESS, HRSAT-VENT, HYPO-ERRLOW)
+protected=none: [1.0, 2.0, 2.0, 3.0, inf]
+protected=['VENTTUBE']: [1.0, inf, 2.0, inf, inf]
+protected=['VENTTUBE', 'CATECHOL']: [1.0, inf, inf, inf, inf]

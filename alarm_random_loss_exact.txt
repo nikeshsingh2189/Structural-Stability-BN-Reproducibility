@@ -1,0 +1,5 @@
+  INTUBATION-HYPOVOLEMIA   orders=   720 {1: 240, 2: 144, 3: 72, 4: 24, 'never': 240}  E[L|L<inf]=1.75  Pr(L=rho)=33.33%  Pr(never)=33.33%
+   MINVOLSET-SAO2          orders=    24 {2: 4, 3: 8, 4: 12}  E[L|L<inf]=3.33  Pr(L=rho)=16.67%  Pr(never)=0.00%
+          CO-PRESS         orders=     6 {2: 2, 3: 4}  E[L|L<inf]=2.67  Pr(L=rho)=33.33%  Pr(never)=0.00%
+       HRSAT-VENTMACH      orders= 40320 {3: 2160, 4: 5328, 5: 8352, 6: 10080, 7: 9360, 8: 5040}  E[L|L<inf]=5.85  Pr(L=rho)=5.36%  Pr(never)=0.00%
+ HYPOVOLEMIA-ERRLOWOUTPUT  orders=     2 {'never': 2}  E[L|L<inf]=nan  Pr(L=rho)=nan%  Pr(never)=100.00%

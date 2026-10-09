@@ -1,0 +1,30 @@
+[PASS] exhaustive total DAGs
+[PASS] exhaustive valid queries
+[PASS] exhaustive mismatches
+[PASS] finite/infinite counts
+[PASS] nonmonotone count
+[PASS] rho>=2 count
+[PASS] six-node radius counts
+[PASS] random-DAG retained queries
+[PASS] random-DAG unit/weighted mismatches
+[PASS] Asia benchmark
+[PASS] Asia nonmonotone
+[PASS] Insurance benchmark
+[PASS] Insurance nonmonotone
+[PASS] ALARM benchmark
+[PASS] ALARM nonmonotone
+[PASS] ALARM displayed HRSAT representative
+[PASS] ALARM HRSAT displayed set among all minima
+[PASS] ALARM exact protection B=0..4 -- [87.96, 91.06, 95.1, 98.2, 100.0]
+[PASS] B95 p_loss=0.1
+[PASS] B95 p_loss=0.2
+[PASS] B95 p_loss=0.3
+[PASS] B95 p_loss=0.4
+[PASS] B95 p_loss=0.5
+[PASS] pipeline total/radius counts
+[PASS] pipeline SO baseline
+[SKIP] raw pipeline baseline fit -- not run; public Year-1/Year-7 files are external to this archive
+[SKIP] raw pipeline sensitivity -- not run; run with the public Year-1/Year-7 files
+[SKIP] common-556 fitted-graph analysis -- not run; generated after the public-data sensitivity fit
+
+Summary: 25 passed, 0 failed, 3 skipped
