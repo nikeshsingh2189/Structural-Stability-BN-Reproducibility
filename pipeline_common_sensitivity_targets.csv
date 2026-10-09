@@ -1,0 +1,10 @@
+quantity,count,percent
+common_valid_relations,556,100.00
+breaks_under_all,120,21.58
+breaks_under_some,134,24.10
+survives_under_all,302,54.32
+breaks_only_cap3_pattern_001,64,11.51
+breaks_cap2_and_cap3_pattern_011,70,12.59
+common_set_cap1_break_rate,120,21.58
+common_set_cap2_break_rate,190,34.17
+common_set_cap3_break_rate,254,45.68
